@@ -10,5 +10,5 @@
 ## Structure
 - **utilities**: Contains global styling such as variables , functions , mixins and placeholders.
 - **base**: Contains default styling such as normalize and more.
-- **layout**: Contains for laying out the site and large components such as header, footer and grid.
+- **layout**: Contains styles for laying out the site and large components such as header, footer and grid.
 - **pages**: Contains styles for specific pages e.g. Home, About ..
