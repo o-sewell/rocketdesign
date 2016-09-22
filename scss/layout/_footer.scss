@@ -1,0 +1,33 @@
+footer {
+  width: 100%;
+  background: $bluey;
+}
+
+.footer {
+  list-style-type: none;
+  text-align: center;
+
+  &__item {
+    display: inline-block;
+
+    i {
+      font-size: em(20px);
+      margin: 20px 20px;
+      color: $botticelli;
+
+      @media(min-width: $medium-screen) {
+        font-size: em(25px);
+        margin: em(20px) em(40px);
+      }
+
+      @media(min-width: $large-screen) {
+        font-size: em(40px);
+        margin: em(20px) em(40px);
+      }
+
+      &:hover {
+        color: #f5f5f5;
+      }
+    }
+  }
+}

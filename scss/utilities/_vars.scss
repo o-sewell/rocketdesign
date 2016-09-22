@@ -8,14 +8,14 @@ $font-family--primary : 'Alegreya', serif;
 //font weights
 $regular : 400;
 $bold : 700;
-$black : 900;
+$xbold : 900;
 
 // Descriptive Base Colors
 $white    : #fff;
 $black    : #0b0b0b;
 $grey     : #797e83;
 $primary-font-color : #f5f5f5;
-$header : #6991ac;
+$bluey : #6991ac;
 $tacao : #F1AA90;
 $tea : #BEB9AD;
 $aqua : #AADCD2;
@@ -36,3 +36,9 @@ $br--round      : 50%;
 
 // Transitions
 $trns-duration  : .3s;
+
+
+// Media Queries
+$small-screen : 500px;
+$medium-screen: 800px;
+$large-screen: 1200px;

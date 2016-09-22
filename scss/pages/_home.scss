@@ -1,0 +1,132 @@
+.banner {
+  background: $bluey;
+}
+
+
+/* icon section */
+
+
+.one-fourth {
+  @include container;
+  text-align: center;
+}
+
+.one-fourth i {
+  color: #f0f0f0;
+  font-size: em(60px);
+  padding: em(5px) em(5px) em(2.5px) em(5px);
+
+  @media(min-width: $medium-screen) {
+    font-size: em(80px);
+  }
+}
+
+
+#html {
+  background: #F1AA90;
+  @include span(6 of 12);
+
+  @media(min-width: $medium-screen) {
+    @include span(3 of 12);
+  }
+}
+
+
+#css {
+  background: #BEB9AD;
+    @include span(6 of 12 last);
+
+    @media(min-width: $medium-screen) {
+      @include span(3 of 12);
+    }
+}
+
+#seo {
+  background: #AADCD2;
+  @include span(6 of 12);
+
+  @media(min-width: $medium-screen) {
+    @include span(3 of 12);
+  }
+}
+
+#social {
+  background: $cadet;
+  @include span(6 of 12 last);
+
+  @media(min-width: $medium-screen) {
+    @include span(3 of 12);
+  }
+}
+
+/* 2 columns section */
+
+
+.inner-wrapper {
+  background: $botticelli;
+  @include container;
+}
+
+.inner-wrapper > img {
+  margin: 0 auto;
+}
+
+#tablet {
+  @media(min-width: $medium-screen) {
+    @include span(6 of 12);
+  }
+}
+
+#tablet2 {
+  background: $cadet;
+  padding: em(40px) em(20px);
+  @media(min-width: $medium-screen) {
+    @include span(6 of 12 last);
+  }
+}
+
+#mobile {
+  padding: em(40px) em(20px);
+  background: $tea;
+  @media(min-width: $medium-screen) {
+    @include span(6 of 12);
+  }
+}
+
+#mobile2 {
+  @media(min-width: $medium-screen) {
+    @include span(6 of 12 last);
+  }
+}
+
+/*three column section */
+
+.inner-wrapper-3 {
+  @include container;
+  text-align: center;
+}
+
+.one-third {
+  padding: em(20px);
+  height: 250px;
+  @media(min-width: $medium-screen) {
+    @include span(4 of 12);
+  }
+}
+
+#google {
+  background: $cadet;
+}
+
+#marketing {
+  background: $tea;
+}
+
+#customers {
+  background: $tacao;
+}
+
+#smiley {
+  background: $tacao;
+  padding: 5px;
+}

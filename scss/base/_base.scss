@@ -1,4 +1,4 @@
-
+@import "bower_components/susy/sass/susy";
 // apply a natural box layout model to all elements,
 // but allowing components to change
 // http://www.paulirish.com/2012/box-sizing-border-box-ftw/
@@ -14,4 +14,46 @@ html {
  margin: 0;
  padding: 0;
  border: 0;
+}
+
+$susy: (
+  columns: 12,
+  gutters: .25,
+  gutter-position: inside,
+);
+
+img {
+  display:block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+h3 {
+  font-size: em(25px);
+  font-family: $font-family--primary;
+  padding: em(2px) 0;
+  color: $primary-font-color;
+  font-weight: $bold;
+
+  @media(min-width: $large-screen) {
+    font-size: em(40px);
+  }
+}
+
+h2 {
+  text-align: center;
+  color: $primary-font-color;
+  font-size: em(25px);
+  padding: em(5px) 0;
+
+  @media(min-width: $large-screen) {
+    font-size: em(40px);
+  }
+}
+p {
+  font-family: $font-family--primary;
+  color: $primary-font-color;
+  padding: em(20px);
+  font-size: em(18px);
 }
